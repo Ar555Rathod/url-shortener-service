@@ -1,2 +1,10 @@
-# url-shortener-service
-Lightweight URL shortener REST API (Express, SQLite, nanoid)
+# URL Shortener Service
+
+Lightweight URL shortener REST API.
+
+Endpoints
+- POST /shorten { url }
+- GET /:id -> 302 redirect
+
+Run
+- node src/index.js
